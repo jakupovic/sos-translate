@@ -1,0 +1,11 @@
+application: sostranslate
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /(.*\.(mp3|wav))
+  static_files: \1
+  upload: (.*\.(mp3|wav))
+- url: /.*
+  script: sostranslate.py

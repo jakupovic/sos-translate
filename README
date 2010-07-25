@@ -1,0 +1,34 @@
+The aim of the project is to help connect translators with wider audience.
+
+
+Global setup:
+
+ Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email jakupovic@gmail.com
+  Add your public key
+        
+
+Next steps:
+
+  mkdir sos-translate
+  cd sos-translate
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:jakupovic/sos-translate.git
+  git push origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:jakupovic/sos-translate.git
+  git push origin master
+      
+When you're done:
+
+  http://github.com/jakupovic/sos-translate
+
+

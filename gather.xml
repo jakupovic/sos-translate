@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather method="POST" numDigits="5" action="{{ postprefix }}weather">
+        <Play>greeting.wav</Play>
+        <Say>Please enter your 5 digit zipcode to hear the weather.</Say>
+    </Gather>
+</Response>
